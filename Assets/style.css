@@ -3,100 +3,42 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.Blocks{
-    height: 700px;
-    background-color: #1F2937;
-}
-
-.Blocks.Information{
-    height: 700px;
-    background-color: white;
-}
-
-.Blocks.Review{
-    height: 600px;
-    background-color: #e5e7eb;
-}
-
-.Blocks.Contact{
-    height: 400px;
-    background-color: white;
-}
-
+/* Menu Block*/
 .Menu{
     width: 100%;
     height: 100px;
 }
-
 .logo{
-    font-size: 27px;
-    color: #f9faf8;
+    font-size: 24px;
     margin-left: 160px;
     justify-content: left;
 }
-
-.h-80{
-    height: 80%;
-}
-
-.flex-display{
-    display: flex;
-}
-
-.flex-direction-column{
-    flex-direction: column;
-}
-
-.flex-basis-50{
-    flex: 0 1 50%;
-}
-
-.align-items-center{
-    align-items: center;
-}
-
-.justify-content-center{
-    justify-content: center;
-}
-
-.items{
-    font-size: 21px;
-    color: #E5E7Eb;
-    gap: 20px;
-}
-
-.bg-white:hover{
-    color: white;
-}
-
 .MenuTitle{
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
-  
 }
-
-.SignUpBtn{
-    font-size: 18px;
-    padding: 10px 30px 10px 30px;
-    background-color: #3882f6;
-    border-radius: 5px;
-    border-color: #3882f6;
-    color: #f9faf8;
+.BlocksMenu{
+    height: 700px;
+    background-color: #1F2937;
 }
-
-.SignUpBtn:hover{
-    cursor:pointer;
+.MenuItem{
+    gap: 20px;
 }
-
+.BlocksMenu img{
+    height: 500px;
+    width: 600px;
+    border-radius: 30px;
+    margin-right: 325px;
+}
+/* Information Block*/
+.Blocks.Information{
+    height: 700px;
+}
 .InformationTitle{
     padding-top: 50px;
     text-align: center;
-    color: #1f2937;
     font-weight: bolder;
-    font-size: 36px;
 }
-
 .informationBox{
     padding-top: 60px;
     width: 270px;
@@ -104,58 +46,117 @@ body{
     border-radius: 10px;
 
 }
-
 .InformationBoxes{
     gap: 70px;
 }
-
 .informationBox img{
     height: 250px;
     width: 270px;
     border-radius: 10px;
     border : 4px solid #3882f6;
 }
-
 .informationBox p{
     font-size: 18px;
     color: #1f2937;
 }
-
+/* Review Block*/
+.Blocks.Review{
+    height: 600px;
+    background-color: #e5e7eb;
+}
 .Review h3{
-    font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1f2937;
 }
-
 .Review h2{
     text-align: right;
     padding-right: 50px;
 }
-
+/* Contact Block*/
+.Blocks.Contact{
+    height: 400px;
+}
 .Blocks.Contact button{
     border: 2px solid white;
 }
-
 .Blocks.Contact h1{
     color :#e5e7eb;
     margin-bottom :0px;
 }
-
 .Blocks.Contact h3{
     color :#e5e7eb;
     margin-top: 0px;
     margin-bottom : 20px;
     font-weight: lighter;
-}
 
+}
+#ContactContainer{
+    height: 50%;
+    width: 60%;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+#ContactContainer div:nth-child(1){
+    flex-basis: 65%; 
+    padding-left:200px;
+}
+#ContactContainer div:nth-child(2){
+    flex-basis: 35%;
+}
+/* Footer */
 .footer{
     height: 100px;
     background-color: #1F2937;
 }
-
-.footer h2{
-    font-size: 20px;
-    color: #e5e7eb;
+/* CSS in every block */
+.c-white:hover{
+    color: white;
 }
+.menu-text-color{
+    color: #f9faf8;
+}
+.text-black{
+    font-size: 36px;
+    color: #1f2937;
+}
+.secondary-text-color{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.SignUpBtn{
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #3882f6;
+    
+}
+.SignUpBtn:hover{
+    cursor:pointer;
+}
+.h-80{
+    height: 80%;
+}
+.flex-display{
+    display: flex;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.flex-basis-50{
+    flex: 0 1 50%;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.bg-white{
+    background-color: white;
+}
+.w-50{
+    width: 50%;
+}
+
 
